@@ -200,3 +200,30 @@ function draw() {
   let parcial = palavra.substring(0, quantidade);
   text(parcial, 200, 200);
 }
+function dizerOla(paraQuem) {
+    console.log("Olá, " + paraQuem + "!");
+}
+
+dizerOla("Alice");
+dizerOla("Bob");
+dizerOla("Charlie");
+function calculaAreaDoRetangulo(altura, largura) {
+    let area = altura * largura;
+    return area;
+}
+function calculaAreaDoRetangulo(largura, altura) {
+    let area = largura * altura;
+    console.log("A área do retângulo é: " + area);
+}
+
+calculaAreaDoRetangulo(5, 8);
+calculaAreaDoRetangulo(10, 3);
+calculaAreaDoRetangulo(7, 7);
+function facaCompras(livroA, livroB) {
+
+  let soma = livroA + livroB;
+  console.log("A soma dos preços dos livros é: R$ " + soma + ",00");
+}
+
+facaCompras(50, 50);
+facaCompras(72, 28); 
